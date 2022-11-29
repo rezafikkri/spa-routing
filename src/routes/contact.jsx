@@ -37,7 +37,7 @@ export default function Contact() {
 
       <div>
         <h1>
-          {contact.first || contact.last ? (
+         {contact.first || contact.last ? (
             <>
               {contact.first} {contact.last}
             </>
