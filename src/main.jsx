@@ -25,7 +25,7 @@ import './index.css';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/spa-routing/",
     element: <Root />,
     errorElement: <ErrorPage />,
     loader: rootLoader,
